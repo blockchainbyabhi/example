@@ -1,0 +1,11 @@
+Program / R Code
+# Practical 6: Pie Chart
+expenses <- c(30, 25, 20, 15, 10)
+categories <- c("Food", "Rent", "Travel", "Education", "Others")
+
+pie(expenses,
+    labels = categories,
+    main = "Monthly Expenses")
+
+
+OUTPUT:-
