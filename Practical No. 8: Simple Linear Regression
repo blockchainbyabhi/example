@@ -1,0 +1,13 @@
+Program / R Code
+# Practical 8: Simple Linear Regression
+advertising <- c(10, 20, 30, 40, 50)
+sales <- c(16, 24, 37, 43, 56)
+
+model <- lm(sales ~ advertising)
+
+print(model)
+summary(model)
+
+
+OUTPUT:=
+
