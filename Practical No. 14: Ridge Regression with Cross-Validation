@@ -1,3 +1,9 @@
+install.packages("glmnet")
+use this in R Console like R-4.6.1.exe
+
+
+
+
 # Practical 14: Ridge Regression with Cross-Validation
 # Run once if glmnet is not installed:
 # install.packages("glmnet")
