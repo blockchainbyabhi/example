@@ -1,0 +1,25 @@
+# Program 1: Basic arithmetic operations and vectors
+a <- 20
+b <- 10
+addition <- a + b
+subtraction <- a - b
+multiplication <- a * b
+division <- a / b
+print(addition)
+print(subtraction)
+print(multiplication)
+print(division)
+
+marks <- c(65, 70, 75, 80, 85)
+print(marks)
+
+
+
+
+Output:-
+[1] 30
+[1] 10
+[1] 200
+[1] 2
+[1] 65 70 75 80 85
+[1] 75
