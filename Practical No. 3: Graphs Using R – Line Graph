@@ -1,0 +1,26 @@
+month <- c("Jan", "Feb", "Mar", "Apr", "May")
+sales <- c(20, 25, 30, 28, 35)
+month <- factor(month, levels = c("Jan", "Feb", "Mar", "Apr", "May"))
+plot(month, sales,
+type = "o",
+main = "Monthly Sales",
+xlab = "Month",
+ylab = "Sales")
+
+
+
+
+OUTPUT
+
+                 Monthly Sales
+
+   35 |                                    ━━━━━━
+      |
+   30 |                      ━━━━━━
+      |                                ━━━━━━
+   25 |          ━━━━━━
+      |
+   20 |  ━━━━━━
+      +--------------------------------------------
+         Jan      Feb      Mar      Apr      May
+                          Month
