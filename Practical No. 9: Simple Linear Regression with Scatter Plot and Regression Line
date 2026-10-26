@@ -1,0 +1,15 @@
+# Practical 9: Scatter Plot with Regression Line
+advertising <- c(10, 20, 30, 40, 50)
+sales <- c(15, 25, 35, 45, 55)
+
+model <- lm(sales ~ advertising)
+
+plot(advertising, sales,
+     main = "Advertising vs Sales",
+     xlab = "Advertising",
+     ylab = "Sales",
+     pch = 19)
+
+abline(model)
+
+OUTUPT:-
