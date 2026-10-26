@@ -1,3 +1,8 @@
+install.packages("glmnet")
+use this in R Console like R-4.6.1.exe
+
+
+
 # Practical 13: Ridge Regression
 # Run once if glmnet is not installed:
 # install.packages("glmnet")
