@@ -1,0 +1,18 @@
+# Practical 12: Prediction Using Multiple Linear Regression
+study_hours <- c(2, 3, 4, 5, 6, 7)
+attendance <- c(60, 65, 70, 80, 90, 95)
+marks <- c(50, 55, 65, 72, 85, 90)
+
+model <- lm(marks ~ study_hours + attendance)
+
+new_data <- data.frame(
+  study_hours = 5,
+  attendance = 85
+)
+
+prediction <- predict(model, newdata = new_data)
+
+print(prediction)
+
+
+OUTPUT:=
