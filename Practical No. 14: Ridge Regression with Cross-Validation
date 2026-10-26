@@ -1,0 +1,32 @@
+# Practical 14: Ridge Regression with Cross-Validation
+# Run once if glmnet is not installed:
+# install.packages("glmnet")
+
+library(glmnet)
+
+x <- matrix(c(
+  2, 60,
+  3, 65,
+  4, 70,
+  5, 80,
+  6, 90
+), ncol = 2, byrow = TRUE)
+
+y <- c(50, 55, 65, 72, 85)
+
+set.seed(123)
+
+cv_model <- cv.glmnet(x, y, alpha = 0)
+
+print(cv_model$lambda.min)
+print(cv_model$lambda.1se)
+
+plot(cv_model)
+
+
+
+
+
+
+OUTPUT:-
+
