@@ -1,0 +1,22 @@
+# Practical 13: Ridge Regression
+# Run once if glmnet is not installed:
+# install.packages("glmnet")
+
+library(glmnet)
+
+x <- matrix(c(
+  2, 60,
+  3, 65,
+  4, 70,
+  5, 80,
+  6, 90
+), ncol = 2, byrow = TRUE)
+
+y <- c(50, 55, 65, 72, 85)
+
+model <- glmnet(x, y, alpha = 0)
+
+print(model)
+
+
+OUTPUT:-
